@@ -1,0 +1,18 @@
+.NavBar {
+  text-align: center;
+}
+
+.NavBar ul {
+  padding: 0;
+  display: inline-flex;
+}
+
+.NavBar li {
+  list-style-type: none;
+  background-color: aqua;
+  padding: 0 40px;
+}
+
+.NavBar .Nav-Link {
+  text-decoration: none;
+}

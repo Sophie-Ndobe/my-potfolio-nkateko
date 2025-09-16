@@ -1,0 +1,30 @@
+.Footer {
+  text-align: center;
+}
+
+.Footer h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Footer p {
+  margin-top: 10px;
+}
+
+.Footer a {
+  font-weight: 600;
+  color: black;
+}
+
+.Footer a:hover {
+  color: brown;
+}
+
+.Footer .icon {
+  font-size: 48px;
+  margin: 0 20px;
+}
+
+.Footer .icon:hover {
+  color: brown;
+}

@@ -5,12 +5,20 @@
 .NavBar ul {
   padding: 0;
   display: inline-flex;
+  margin: 0;
 }
 
 .NavBar li {
   list-style-type: none;
   background-color: aqua;
-  padding: 0 40px;
+  padding: 10px 40px;
+  margin: 0 20px;
+  border-radius: 4px;
+}
+
+.NavBar li:hover {
+  background-color: brown;
+  color: antiquewhite;
 }
 
 .NavBar .Nav-Link {

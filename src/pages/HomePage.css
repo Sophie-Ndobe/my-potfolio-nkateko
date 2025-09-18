@@ -1,7 +1,7 @@
 .Home h1 {
   font-size: 70px;
   color: #060606;
-  margin: 0;
+  margin: 0 0 0 40px;
   line-height: 1.5;
   font-weight: 600;
 }
@@ -9,8 +9,8 @@
 .Home h2 {
   font-size: 24px;
   color: #060606;
-  margin: 0;
-  line-height: 1.5;
+  margin: 0 0 0 40px;
+  line-height: 1;
   opacity: 0.7;
   font-weight: 700;
 }

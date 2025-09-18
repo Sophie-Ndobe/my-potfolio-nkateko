@@ -1,4 +1,22 @@
 .HomeMainSection .picture-gallery-grid {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  background-color: black;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.HomeMainSection p {
+  margin: 60px 0 0 20px;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.HomeMainSection img {
+  border-radius: 4px;
 }

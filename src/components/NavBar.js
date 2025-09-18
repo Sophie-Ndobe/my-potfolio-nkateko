@@ -7,16 +7,16 @@ export function NavBar() {
     <div className="NavBar">
       <ul>
         <Link to="/" className="Nav-Link">
-          <li>Home</li>
+          <li className="me-5">Home</li>
         </Link>
         <Link to="/About" className="Nav-Link">
-          <li>About Me</li>
+          <li className="ms-5 me-5">About Me</li>
         </Link>
         <Link to="/Projects" className="Nav-Link">
-          <li> My Projects</li>
+          <li className="ms-5 me-5"> My Projects</li>
         </Link>
         <Link to="/Contact" className="Nav-Link">
-          <li>Contact Me</li>
+          <li className="ms-5">Contact Me</li>
         </Link>
       </ul>
     </div>

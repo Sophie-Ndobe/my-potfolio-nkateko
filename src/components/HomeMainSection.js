@@ -1,14 +1,12 @@
 import React from "react";
 import "./HomeMainSection.css";
 import { TechnologiesIcon } from "../components/TechnologiesIcon.js";
-import photo1 from "../images/Sophie/Sophie-Garden.jpg";
 import photo2 from "../images/Sophie/Sophie-pose.jpg";
 import photo3 from "../images/Sophie/Sophie-Snow.jpg";
-import photo4 from "../images/Sophie/Sophie-balcony.jpg";
-import photo5 from "../images/Sophie/Sophie-car.png";
+import photo4 from "../images/Sophie/Sophie-moz.jpg";
+import photo5 from "../images/Sophie/Sophie-moz2.jpg";
 import photo6 from "../images/Sophie/Sophie-Parking-lot.jpg";
 import photo7 from "../images/Sophie/Sophie-looking-out.jpg";
-import photo8 from "../images/Sophie/Sophie-Safari.jpg";
 
 export function HomeMainSection() {
   return (
@@ -35,18 +33,6 @@ export function HomeMainSection() {
             alt="Sophie posing on a balcony"
             className="img-fluid"
           />
-        </div>
-
-        <div>
-          <img
-            src={photo1}
-            alt="Sophie sitting in a garden"
-            className="img-fluid"
-          />
-        </div>
-
-        <div>
-          <img src={photo8} alt="Sophie on a Safari" className="img-fluid" />
         </div>
 
         <div>

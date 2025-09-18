@@ -2,17 +2,16 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 10px;
-  background-color: black;
+  background-color: white;
   border-radius: 4px;
   padding: 10px;
 }
 
 .HomeMainSection p {
-  margin: 60px 0 0 20px;
+  /* margin: 60px 0 0 20px;*/
   background-color: black;
   padding: 10px;
   color: white;
-  border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
 }

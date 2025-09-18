@@ -1,0 +1,8 @@
+.App {
+  background-color: black;
+}
+
+.App .container {
+  background-color: white;
+  padding: 0;
+}

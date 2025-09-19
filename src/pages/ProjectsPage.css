@@ -1,0 +1,32 @@
+.Projects h1 {
+  font-size: 62px;
+  color: #010207;
+  text-align: center;
+}
+
+.Projects h4 {
+  text-align: center;
+}
+
+.Projects header {
+  margin: 60px 0;
+}
+
+.Projects .project-web-development {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 0 10px;
+}
+
+.Projects .launch-button {
+  text-decoration: none;
+  padding: 20px;
+  background-color: #010207;
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+}

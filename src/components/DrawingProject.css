@@ -1,0 +1,16 @@
+.drawing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  padding: 30px 0;
+
+  background-color: black;
+}
+
+.drawing-grid .lion {
+  margin-top: 90px;
+}
+
+.drawing-grid img {
+  border-radius: 2px;
+}

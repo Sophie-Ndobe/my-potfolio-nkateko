@@ -1,6 +1,7 @@
 import React from "react";
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
+import { DrawingProjects } from "../components/DrawingProjects";
 import "./ProjectsPage.css";
 import photo1 from "../images/Projects/Weather App.png";
 
@@ -17,9 +18,10 @@ export function Projects() {
           <div>
             <img src={photo1} alt="Weather app project" className="img-fluid" />
             <p className="mt-2 mb-2 p-2">
-              Developed in Visual Studio Code using web technologies such as
-              HTML, CSS. Additional tools and frameworks such as React, APIs,
-              GitHub, and hosting services.
+              Developed in Visual Studio Code using web technologies such as{" "}
+              <strong>HTML</strong>, <strong>CSS</strong>. Additional tools and
+              frameworks such as <strong>React</strong>, <strong>APIs</strong>,{" "}
+              <strong>GitHub</strong>, and <strong>hosting </strong> services.
             </p>
             <a
               href="https://sprightly-chimera-7bf70b.netlify.app/"
@@ -36,7 +38,7 @@ export function Projects() {
               Developed in Visual Studio Code using web technologies such as{" "}
               <strong>HTML</strong>, <strong>CSS</strong>. Additional tools and
               frameworks such as <strong>React</strong>, <strong>APIs</strong>,{" "}
-              <strong>GitHub</strong>, and hosting services.
+              <strong>GitHub</strong>, and <strong>hosting</strong> services.
             </p>
             <a
               href="https://sprightly-chimera-7bf70b.netlify.app/"
@@ -50,9 +52,10 @@ export function Projects() {
           <div>
             <img src={photo1} alt="Weather app project" className="img-fluid" />
             <p className="mt-2 mb-2 p-2">
-              Developed in Visual Studio Code using web technologies such as
-              HTML, CSS. Additional tools and frameworks such as React, APIs,
-              GitHub, and hosting services.
+              Developed in Visual Studio Code using web technologies such as{" "}
+              <strong>HTML</strong>, <strong>CSS</strong>. Additional tools and
+              frameworks such as <strong>React</strong>, <strong>APIs</strong>,{" "}
+              <strong>GitHub</strong>, and <strong>hosting</strong> services.
             </p>
             <a
               href="https://sprightly-chimera-7bf70b.netlify.app/"
@@ -66,11 +69,7 @@ export function Projects() {
         </div>
         <br />
         <br />
-        <div className="project-web-development">
-          <div>Project1</div>
-          <div>Project1</div>
-          <div>Project1</div>
-        </div>
+        <DrawingProjects />
       </main>
       <Footer />
     </div>

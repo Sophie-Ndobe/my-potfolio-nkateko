@@ -15,8 +15,8 @@
 .Projects .project-web-development {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  padding: 0 10px;
+  grid-gap: 20px;
+  padding: 0 20px;
 }
 
 .Projects .launch-button {
@@ -29,4 +29,9 @@
   border-radius: 4px;
   font-size: 18px;
   color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.Projects .launch-button:hover {
+  background-color: brown;
 }

@@ -1,5 +1,10 @@
 import React from "react";
+import "./OtherFooter.css";
 
 export function OtherFooter() {
-  return <div>This is the other footer</div>;
+  return (
+    <div>
+      <p>© 2025 Sophie Ndobe.</p>
+    </div>
+  );
 }

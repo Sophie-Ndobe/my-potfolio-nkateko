@@ -11,16 +11,24 @@ export function Contact() {
     <div className="Contact">
       <NavBar />
       <h1>Let's get in touch!</h1>
-      <div>
-        <FontAwesomeIcon icon={faEnvelope} />
+      <div className="Dark-Section">
+        <div className="Icon">
+          <FontAwesomeIcon icon={faEnvelope} />
+        </div>
         <h2>ndobes76@gmail.com</h2>
       </div>
-      <div>
-        <FontAwesomeIcon icon={faLinkedin} />
-        <h2>LinkedIn</h2>
+      <div className="Light-Section">
+        <div className="Icon">
+          <div>
+            <FontAwesomeIcon icon={faLinkedin} />
+          </div>
+          <h2>LinkedIn</h2>
+        </div>
       </div>
-      <div>
-        <FontAwesomeIcon icon={faGithub} />
+      <div className="Dark-Section">
+        <div className="Icon">
+          <FontAwesomeIcon icon={faGithub} />
+        </div>
         <h2>Github</h2>
       </div>
       <OtherFooter />
